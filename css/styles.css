@@ -41,11 +41,24 @@ body {
 .header-list a {
   color: var(--headers-color);
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts a {
   color: var(--description-contacts-color);
   font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.header-list a:hover,
+.header-list a:focus,
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 /*Footer*/
@@ -53,6 +66,7 @@ body {
 .footer-par {
   color: var(--footer-color);
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 .footer {
