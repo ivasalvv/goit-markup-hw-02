@@ -172,10 +172,14 @@ body {
   color: var(--background-color);
 }
 
-.portfolio ul h3 {
+.portfolio-titles {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headers-color);
 }
-.portfolio ul p {
+.portfolio-par {
   color: var(--description-contacts-color);
+  letter-spacing: 0.02em;
 }
