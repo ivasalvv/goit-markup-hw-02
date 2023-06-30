@@ -84,26 +84,41 @@ body {
   background-color: var(--headers-color);
 }
 
-.hero button {
+.hero-button {
   color: var(--background-color);
   background-color: var(--logo-button-color);
   font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-.hero h1 {
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
-.advanced ul h3 {
+.advanced-title {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headers-color);
 }
 
-.advanced ul p {
+.advanced-par {
   color: var(--description-contacts-color);
+  letter-spacing: 0.02em;
 }
 
 .studio-titles {
@@ -135,18 +150,22 @@ body {
   color: var(--description-contacts-color);
 }
 
-.filters ul .button-one {
-  background-color: #404bbf;
-  color: var(--background-color);
-  font-weight: 500;
-  text-align: center;
-}
-
-.filters ul button {
-  background-color: #e7e9fc;
+.filters ul .button {
+  background-color: var(--footer-color);
   color: var(--logo-button-color);
   font-weight: 500;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.filters ul .button:hover,
+.filters ul .button:focus {
+  background-color: #404bbf;
+  color: var(--background-color);
 }
 
 .portfolio ul h3 {
